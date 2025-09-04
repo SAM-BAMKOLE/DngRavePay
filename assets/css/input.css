@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #fbbb0c;
+    --color-primary-2: #b59244;
+    --color-secondary: #b1c3f5;
+    --color-accent-black: #11100b;
+}
+
+body {
+    @apply text-sm;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+}
+
+.full-width-text {
+    font-size: clamp(3rem, 10rem, 100vw);
+}
