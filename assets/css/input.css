@@ -40,3 +40,26 @@ button {
 .full-width-text {
     font-size: clamp(3rem, 10rem, 100vw);
 }
+
+/* Add to your global CSS */
+.minimal-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(240, 241, 244);
+    border-radius: 2px;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(156, 163, 175);
+}
+
+.minimal-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(242, 243, 245) transparent;
+}
