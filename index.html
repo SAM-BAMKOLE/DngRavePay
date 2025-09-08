@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Home Page DgnRavePay</title>
+    <script src="./assets/js/script.js" defer></script>
 </head>
 
 <body>
     <!-- HERO -->
     <section class="min-h-screen relative">
-        <nav class="">
-            <div class="container mx-auto max-w-6xl px-5 md:px-10 mb-10 py-7 flex items-center justify-between gap-10">
+        <nav class="fixed bg-white z-[10000] w-full">
+            <div class="container mx-auto max-w-6xl px-5 md:px-10 py-5 flex items-center justify-between gap-10">
                 <img src="./assets/images/logo wide.png" alt="DgnRavePay Logo" class="h-20">
                 <div class="hidden lg:flex flex-1 items-center justify-between">
                     <div class="bg-primary/70 rounded-full p-1">
@@ -33,11 +34,10 @@
                 </div>
             </div>
         </nav>
-        <div>
+        <div class="pt-40">
             <div class="container mx-auto max-w-6xl px-5 md:px-10">
                 <div class="text-center mb-10">
-                    <h1
-                        class="capitalize leading-[1.2] mb-5 text-center mb-5 text-5xl md:text-6xl lg:text-[74px] leading-[1]">
+                    <h1 class="capitalize leading-[1.2] mb-5 text-center mb-5">
                         Take Control of Your Money without Boundaries.</h1>
                     <p class="md:font-[500] md:text-lg lg:text-xl mb-10">One Powerful app to send, save, spend, borrow
                         and
@@ -64,7 +64,7 @@
     <section class="my-30">
         <div class="container mx-auto max-w-6xl px-5 md:px-10">
             <div class="mb-10 px-5 md:px-10">
-                <h2 class="text-center mb-5 text-5xl md:text-6xl lg:text-[74px] leading-[1]">One App. Endless <span
+                <h2 class="text-center mb-5 leading-[1.2]">One App. Endless <span
                         class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-2">Freedom</span>
                 </h2>
                 <p class="text-center">More than a wallet - it's how you pay, save, borrow and explore. Instantly,
@@ -80,8 +80,10 @@
                             </h6>
                             <div class="mt-6 lg:mt-8">
                                 <div>
-                                    <h3 class="mb-3 text-3xl md:text-5xl lg:text-[48px] leading-[1]">Transfers that move
-                                        at the speed of trust.</h3>
+                                    <h4 class="text-xl md:text-2xl lg:text-[36px] font-bold mb-3 leading-[1.2]">
+                                        Transfers
+                                        that move
+                                        at the speed of trust.</h4>
                                     <p>Effortlessly send and receive moneyacross Nigeria whether to other DgnRavePay
                                         wallets
                                         or any local bank account.</p>
@@ -107,11 +109,11 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="lg:grid lg:grid-cols-7 gap-5 space-y-10 lg:space-y-0">
-                    <div class="bg-primary/30 rounded-xl lg:col-span-3 flex justify-center lg:block aspect-video
-                    lg:aspect-[auto] overflow-hidden">
+                    <div class="bg-primary/30 relative rounded-xl lg:col-span-3 flex justify-center lg:block aspect-video
+                        lg:aspect-[auto] overflow-hidden">
                         <img src="./assets/images/lady on afro.png"
                             alt="a black lady in afro smiling happily while using her phone"
-                            class="w-full object-cover lg:h-full" />
+                            class="absolute -top-50 lg:top-0 w-full object-cover lg:h-full" />
                     </div>
                     <div class="bg-gradient-to-br from-secondary/10 to-secondary/60 lg:col-span-4 rounded-xl">
                         <div class="px-5 py-7 md:py-10">
@@ -119,8 +121,9 @@
                                 bills payment
                             </h6>
                             <div class="mt-6 md:mt-8">
-                                <h3 class="mb-3 text-3xl md:text-5xl lg:text-[48px] leading-[1]">One-tap access to
-                                    essential services.</h3>
+                                <h4 class="text-xl md:text-2xl lg:text-[36px] font-bold mb-3 leading-[1.2]">One-tap
+                                    access to
+                                    essential services.</h4>
                                 <p>Handle everyday expenses in seconds with DgnRavePay s
                                     smart bill payment system designed for ease, insights, and
                                     rewards.</p>
@@ -149,8 +152,9 @@
                             </h6>
                             <div class="mt-6 lg:mt-8">
                                 <div>
-                                    <h3 class="mb-3 text-3xl md:text-5xl lg:text-[48px] leading-[1]">Go global without
-                                        leaving your wallet.</h3>
+                                    <h4 class="text-xl md:text-2xl lg:text-[36px] font-bold mb-3 leading-[1.2]">Go
+                                        global without
+                                        leaving your wallet.</h4>
                                     <p>Experience seamless international payments with instant, secure, and flexible
                                         virtual USD cards perfectly designed for Nigerians who shop, subscribe, and
                                         spend globally.</p>
@@ -184,8 +188,9 @@
                                 Money Transfer
                             </h6>
                             <div class="mt-6 md:mt-8">
-                                <h3 class="mb-3 text-3xl md:text-5xl lg:text-[48px] leading-[1]">Get financial backup
-                                    when you need it most.</h3>
+                                <h4 class="text-xl md:text-2xl lg:text-[36px] font-bold mb-3 leading-[1.2]">Get
+                                    financial backup
+                                    when you need it most.</h4>
                                 <p>From small emergencies to life-changing purchases, DgnRavePay provides fast, flexible
                                     loans right from your wallet.</p>
                                 <div class="flex gap-5 mt-5 text-sm font-semibold">
@@ -223,9 +228,9 @@
                                 class="absolute right-10 lg:right-0 bottom-20 h-30 sm:h-36 md:h-60">
                         </div>
                     </div>
-                    <div class="bg-primary/30 rounded-xl lg:col-span-3 flex justify-center lg:block aspect-video
+                    <div class="relative rounded-xl lg:col-span-3 flex justify-center lg:block aspect-video
                                     lg:aspect-[auto] overflow-hidden">
-                        <img src="./assets/images/man smiling.png" alt="" class="w-full object-cover h-full" />
+                        <img src="./assets/images/man smiling.png" alt="" class="absolute w-full object-cover h-full" />
                     </div>
                 </div>
                 <!-- Card 5 -->
@@ -237,8 +242,9 @@
                             </h6>
                             <div class="mt-6 lg:mt-8">
                                 <div>
-                                    <h3 class="mb-3 text-3xl md:text-5xl lg:text-[48px] leading-[1]">Make your money
-                                        work smarter.</h3>
+                                    <h4 class="text-xl md:text-2xl lg:text-[36px] font-bold mb-3 leading-[1.2]">Make
+                                        your money
+                                        work smarter.</h4>
                                     <p>Take control of your financial future with smart, automated savings tools
                                         designed for your lifestyle, goals, and discipline level.</p>
                                     <div class="flex gap-5 mt-5 text-sm font-semibold">
@@ -286,8 +292,8 @@
     <section class="bg-accent-black">
         <div class="container mx-auto max-w-6xl px-5 md:px-10 md:grid md:grid-cols-2">
             <div class="pt-20 pb-10 md:py-28 flex flex-col justify-center">
-                <h3 class="text-white mb-5 text-3xl md:text-5xl lg:text-[48px] leading-[1]">Do more with your Personal
-                    Account</h3>
+                <h2 class="text-white mb-5 leading-[1.2]">Do more with your Personal
+                    Account</h2>
                 <p class="text-white">Your lifestyle companion for smart payments, instant gifting, seamless travel, and
                     hassle-free bill management.</p>
                 <div class="mt-10">
@@ -346,20 +352,28 @@
             <!-- JOIN SECTION -->
             <div class="md:grid md:grid-cols-5 md:gap-20">
                 <div class="md:col-span-3">
-                    <h2 class="mb-2 text-center md:text-left text-4xl md:text-5xl lg:text-[62px] leading-[1]">Join
+                    <h2 class="mb-2 text-center md:text-left leading-[1.2]">Join
                         DgnRavePay in 2 Minutes or Less</h2>
-                    <p class="text-center md:tet-left">No queues. No paperwork. Just you, your phone, and a few taps to
+                    <p class="text-center md:text-left">No queues. No paperwork. Just you, your phone, and a few taps to
                         financial freedom.</p>
                     <ul class="mt-3 max-w-2xl">
-                        <li class="flex items-center px-5 py-5 rounded-xl gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
-                            <p class="font-semibold text-base">Download the DgnRavePay Personal App</p>
+                        <li class="px-5 py-5 rounded-2xl mb-2 cursor-pointer join-option">
+                            <div class="flex items-center gap-3 mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>
+                                <p class="font-semibold text-base">Download the DgnRavePay Personal App</p>
+                            </div>
+                            <div class="max-h-0 overflow-hidden join-text transition transition-all">Create a secure
+                                PIN, top up your wallet, and start
+                                sending, spending,
+                                and
+                                saving
+                                smartly.</div>
                         </li>
-                        <li class="px-5 py-5 rounded-2xl mb-2 bg-stone-100 border-b-2 border-primary">
+                        <li class="px-5 py-5 rounded-2xl mb-2 cursor-pointer join-active join-option">
                             <div class="flex items-center gap-3 mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -368,17 +382,26 @@
                                 </svg>
                                 <p class="font-semibold text-base">Verify Your Identity</p>
                             </div>
-                            <span class="">Create a secure PIN, top up your wallet, and start sending, spending, and
+                            <div class="overflow-hidden join-text transition transition-all">Create a secure PIN, top up
+                                your wallet, and start sending,
+                                spending, and
                                 saving
-                                smartly.</span>
+                                smartly.</div>
                         </li>
-                        <li class="flex items-center px-5 py-5 rounded-xl gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-                            </svg>
-                            <p class="font-semibold text-base">Set PIN & Fund Wall</p>
+                        <li class="px-5 py-5 rounded-2xl mb-2 cursor-pointer join-option">
+                            <div class="flex items-center gap-3 mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                                <p class="font-semibold text-base">Set PIN & Fund Wallet</p>
+                            </div>
+                            <div class="max-h-0 overflow-hidden join-text transition transition-all">Create a secure
+                                PIN, top up your wallet, and start
+                                sending, spending, and
+                                saving
+                                smartly.</div>
                         </li>
                     </ul>
                 </div>
@@ -704,8 +727,8 @@
             class="absolute -z-[1] blur-[3rem] w-full bottom-28 left-0">
         <div class="container mx-auto max-w-6xl px-5 md:px-10 py-20">
             <div class="text-center mb-20">
-                <h3 class="text-white mb-5 text-3xl md:text-5xl lg:text-[48px] leading-[1]">Do more with your Personal
-                    Account</h3>
+                <h2 class="text-white mb-5 leading-[1.2]">Do more with your Personal
+                    Account</h2>
                 <p class="text-white">Your lifestyle companion for smart payments, instant gifting, seamless travel, and
                     hassle-free bill management.</p>
                 <div class="mt-10">

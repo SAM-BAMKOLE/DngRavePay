@@ -6,7 +6,7 @@
     --color-primary-2: #b59244;
     --color-primary-3: #211702;
     --color-secondary: #b1c3f5;
-    --color-accent-black: #11100b;
+    --color-accent-black: #171001;
 }
 
 body {
@@ -31,6 +31,20 @@ h2 {
 
 h3 {
     font-weight: 600;
+}
+
+h1 {
+    @apply text-[clamp(3rem,_5vw,_74px)];
+    /* @apply text-5xl md:text-6xl lg:text-[74px]; */
+}
+
+h2 {
+    @apply text-[clamp(2rem,_3vw,_58px)];
+    /* @apply  text-3xl md:text-5xl lg:text-[48px]; */
+}
+
+h3 {
+    @apply text-[clamp(1.5rem,_2vw,_24px)];
 }
 
 button {
@@ -62,4 +76,8 @@ button {
 .minimal-scrollbar {
     scrollbar-width: thin;
     scrollbar-color: rgb(242, 243, 245) transparent;
+}
+
+.join-active {
+    @apply bg-stone-50 border-b border-primary;
 }
